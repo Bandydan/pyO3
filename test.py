@@ -1,5 +1,7 @@
 import sys
+
 numbers = []
+
 with open(sys.argv[1], "r") as f:
     items = f.read().split("\n")
     for i in items[:-1]:
